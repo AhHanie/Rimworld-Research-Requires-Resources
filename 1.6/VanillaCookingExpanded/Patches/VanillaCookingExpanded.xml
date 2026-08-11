@@ -1,0 +1,117 @@
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VCE_Canning"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupRawCorn</id>
+                        <thingDef>RawCorn</thingDef>
+                        <count>60</count>
+                    </li>
+                    <li>
+                        <id>setupVCERawSugar</id>
+                        <thingDef>VCE_RawSugar</thingDef>
+                        <count>30</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VCE_CheeseMaking"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupWoodLog</id>
+                        <thingDef>WoodLog</thingDef>
+                        <count>25</count>
+                    </li>
+                    <li>
+                        <id>setupHay</id>
+                        <thingDef>Hay</thingDef>
+                        <count>35</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VCE_CondimentsResearch"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupWoodLog</id>
+                        <thingDef>WoodLog</thingDef>
+                        <count>20</count>
+                    </li>
+                    <li>
+                        <id>setupVCERawSpices</id>
+                        <thingDef>VCE_RawSpices</thingDef>
+                        <count>30</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VCE_DeepFrying"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupChemfuel</id>
+                        <thingDef>Chemfuel</thingDef>
+                        <count>25</count>
+                    </li>
+                    <li>
+                        <id>setupRawCorn</id>
+                        <thingDef>RawCorn</thingDef>
+                        <count>70</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VCE_Grilling"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupWoodLog</id>
+                        <thingDef>WoodLog</thingDef>
+                        <count>45</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VCE_SoupCooking"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupRawCorn</id>
+                        <thingDef>RawCorn</thingDef>
+                        <count>50</count>
+                    </li>
+                    <li>
+                        <id>setupVCERawSpices</id>
+                        <thingDef>VCE_RawSpices</thingDef>
+                        <count>20</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+</Patch>

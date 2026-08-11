@@ -1,0 +1,132 @@
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VFE_AdvancedBatteries"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>30</count>
+                    </li>
+                    <li>
+                        <id>setupPlasteel</id>
+                        <thingDef>Plasteel</thingDef>
+                        <count>30</count>
+                    </li>
+                    <li>
+                        <id>setupComponentSpacer</id>
+                        <thingDef>ComponentSpacer</thingDef>
+                        <count>1</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>3</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VFE_AdvancedPowerSources"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>85</count>
+                    </li>
+                    <li>
+                        <id>setupPlasteel</id>
+                        <thingDef>Plasteel</thingDef>
+                        <count>30</count>
+                    </li>
+                    <li>
+                        <id>setupComponentSpacer</id>
+                        <thingDef>ComponentSpacer</thingDef>
+                        <count>2</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>3</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VFE_IndustrialGenerators"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>60</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>2</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VFE_NuclearPower"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>40</count>
+                    </li>
+                    <li>
+                        <id>setupPlasteel</id>
+                        <thingDef>Plasteel</thingDef>
+                        <count>30</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>3</count>
+                    </li>
+                    <li>
+                        <id>setupComponentSpacer</id>
+                        <thingDef>ComponentSpacer</thingDef>
+                        <count>1</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VFE_TidalPower"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>50</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>2</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+</Patch>

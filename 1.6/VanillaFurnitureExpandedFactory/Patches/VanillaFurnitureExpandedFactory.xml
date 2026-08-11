@@ -1,0 +1,47 @@
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VFE_BasicFactories"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>220</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>6</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VFE_ComplexFactories"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>220</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>6</count>
+                    </li>
+                    <li>
+                        <id>setupGold</id>
+                        <thingDef>Gold</thingDef>
+                        <count>25</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+</Patch>

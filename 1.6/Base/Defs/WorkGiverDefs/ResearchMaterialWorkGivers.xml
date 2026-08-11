@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WorkGiverDef>
+    <defName>RRR_DeliverResearchMaterial</defName>
+    <label>deliver research materials</label>
+    <giverClass>Research_Requires_Resources.WorkGiver_DeliverResearchMaterial</giverClass>
+    <workType>Hauling</workType>
+    <verb>deliver</verb>
+    <gerund>delivering research materials</gerund>
+    <priorityInType>25</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <nonColonistsCanDo>true</nonColonistsCanDo>
+  </WorkGiverDef>
+
+</Defs>

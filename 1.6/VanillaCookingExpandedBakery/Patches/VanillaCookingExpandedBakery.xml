@@ -1,0 +1,22 @@
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VCE_DecorativeBaking"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupVCEFlour</id>
+                        <thingDef>VCE_Flour</thingDef>
+                        <count>40</count>
+                    </li>
+                    <li>
+                        <id>setupVCERawSugar</id>
+                        <thingDef>VCE_RawSugar</thingDef>
+                        <count>30</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+</Patch>

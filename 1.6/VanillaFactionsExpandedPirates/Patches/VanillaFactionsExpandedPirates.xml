@@ -1,0 +1,192 @@
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VFEP_AdvancedWarcaskets"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>110</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>2</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VFEP_SpacerWarcaskets"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupPlasteel</id>
+                        <thingDef>Plasteel</thingDef>
+                        <count>110</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>3</count>
+                    </li>
+                    <li>
+                        <id>setupComponentSpacer</id>
+                        <thingDef>ComponentSpacer</thingDef>
+                        <count>1</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VFEP_SpacerWarcasketWeaponry"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupPlasteel</id>
+                        <thingDef>Plasteel</thingDef>
+                        <count>35</count>
+                    </li>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>30</count>
+                    </li>
+                    <li>
+                        <id>setupUranium</id>
+                        <thingDef>Uranium</thingDef>
+                        <count>30</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>3</count>
+                    </li>
+                    <li>
+                        <id>setupComponentSpacer</id>
+                        <thingDef>ComponentSpacer</thingDef>
+                        <count>1</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VFEP_SpecialisedWarcaskets"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>110</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>2</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VFEP_SweatFermentation"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>65</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>2</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VFEP_WarcasketRemoval"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>110</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>2</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VFEP_Warcaskets"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>25</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>2</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VFEP_WarcasketWeaponry"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>220</count>
+                    </li>
+                    <li>
+                        <id>setupPlasteel</id>
+                        <thingDef>Plasteel</thingDef>
+                        <count>80</count>
+                    </li>
+                    <li>
+                        <id>setupChemfuel</id>
+                        <thingDef>Chemfuel</thingDef>
+                        <count>40</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>2</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+</Patch>

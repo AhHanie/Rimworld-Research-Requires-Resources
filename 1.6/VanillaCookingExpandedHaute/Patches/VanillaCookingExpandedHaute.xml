@@ -1,0 +1,27 @@
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VCE_HauteCuisine"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSilver</id>
+                        <thingDef>Silver</thingDef>
+                        <count>30</count>
+                    </li>
+                    <li>
+                        <id>setupVCERawSpices</id>
+                        <thingDef>VCE_RawSpices</thingDef>
+                        <count>30</count>
+                    </li>
+                    <li>
+                        <id>setupCloth</id>
+                        <thingDef>Cloth</thingDef>
+                        <count>20</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+</Patch>

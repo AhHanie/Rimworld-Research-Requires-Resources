@@ -1,0 +1,222 @@
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VVE_BattleTanks"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>65</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>2</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VVE_BigRigs"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>65</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>2</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VVE_Cherokee"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>65</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>2</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VVE_ClassicCars"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>65</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>2</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VVE_LightArmoredVehicles"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupCloth</id>
+                        <thingDef>Cloth</thingDef>
+                        <count>75</count>
+                    </li>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>30</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VVE_Louie"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>65</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>2</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VVE_OffroadJeeps"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>65</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>2</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VVE_RocketArtillery"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupWoodLog</id>
+                        <thingDef>WoodLog</thingDef>
+                        <count>65</count>
+                    </li>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>35</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VVE_SelfpropelledArtillery"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupWoodLog</id>
+                        <thingDef>WoodLog</thingDef>
+                        <count>65</count>
+                    </li>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>35</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VVE_SiegePods"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>65</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>2</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VVE_SuperCars"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupSteel</id>
+                        <thingDef>Steel</thingDef>
+                        <count>65</count>
+                    </li>
+                    <li>
+                        <id>setupComponentIndustrial</id>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>2</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+</Patch>

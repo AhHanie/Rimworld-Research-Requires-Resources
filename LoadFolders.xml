@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+  <v1.6>
+    <li>1.6/Base</li>
+    <li IfModActive="Ludeon.RimWorld.Royalty">1.6/Royalty</li>
+    <li IfModActive="Ludeon.RimWorld.Ideology">1.6/Ideology</li>
+    <li IfModActive="Ludeon.RimWorld.Biotech">1.6/Biotech</li>
+    <li IfModActive="Ludeon.RimWorld.Odyssey">1.6/Odyssey</li>
+    <li IfModActive="ShunTheWitch.CharColeUNSC">1.6/VanillaAdvancedArsenal</li>
+    <li IfModActive="VanillaExpanded.VAPPE">1.6/VanillaApparelExpanded</li>
+    <li IfModActive="VanillaExpanded.VARME">1.6/VanillaArmourExpanded</li>
+    <li IfModActive="VanillaExpanded.VBooksE">1.6/VanillaBooksExpanded</li>
+    <li IfModActive="VanillaExpanded.VBrewE">1.6/VanillaBrewingExpanded</li>
+    <li IfModActive="VanillaExpanded.VBrewECandT">1.6/VanillaBrewingExpandedCoffeesandTeas</li>
+    <li IfModActive="VanillaExpanded.VCookE">1.6/VanillaCookingExpanded</li>
+    <li IfModActive="VanillaExpanded.VCookEBakery">1.6/VanillaCookingExpandedBakery</li>
+    <li IfModActive="VanillaExpanded.VCookEHaute">1.6/VanillaCookingExpandedHaute</li>
+    <li IfModActive="VanillaExpanded.VCookEStews">1.6/VanillaCookingExpandedStews</li>
+    <li IfModActive="VanillaExpanded.VCookESushi">1.6/VanillaCookingExpandedSushi</li>
+    <li IfModActive="OskarPotocki.VFE.Classical">1.6/VanillaFactionsExpandedClassical</li>
+    <li IfModActive="OskarPotocki.VFE.Deserters">1.6/VanillaFactionsExpandedDeserters</li>
+    <li IfModActive="OskarPotocki.VFE.Empire">1.6/VanillaFactionsExpandedEmpire</li>
+    <li IfModActive="OskarPotocki.VFE.Insectoid2">1.6/VanillaFactionsExpandedInsectoids2</li>
+    <li IfModActive="OskarPotocki.VFE.Medieval2">1.6/VanillaFactionsExpandedMedieval2</li>
+    <li IfModActive="OskarPotocki.VFE.Pirates">1.6/VanillaFactionsExpandedPirates</li>
+    <li IfModActive="VanillaExpanded.VFECore">1.6/VanillaFurnitureExpanded</li>
+    <li IfModActive="VanillaExpanded.VFEArt">1.6/VanillaFurnitureExpandedArt</li>
+    <li IfModActive="VanillaExpanded.VFEFactory">1.6/VanillaFurnitureExpandedFactory</li>
+    <li IfModActive="VanillaExpanded.VFEFarming">1.6/VanillaFurnitureExpandedFarming</li>
+    <li IfModActive="VanillaExpanded.VFEPower">1.6/VanillaFurnitureExpandedPower</li>
+    <li IfModActive="VanillaExpanded.VFEProduction">1.6/VanillaFurnitureExpandedProduction</li>
+    <li IfModActive="VanillaExpanded.VFESecurity">1.6/VanillaFurnitureExpandedSecurity</li>
+    <li IfModActive="VanillaExpanded.VFESpacer">1.6/VanillaFurnitureExpandedSpacerModule</li>
+    <li IfModActive="vanillaexpanded.gravship">1.6/VanillaGravshipExpandedChapter1</li>
+    <li IfModActive="VanillaExpanded.HelixienGas">1.6/VanillaHelixienGasExpanded</li>
+    <li IfModActive="VanillaExpanded.VPlantsEMore">1.6/VanillaPlantsExpandedMorePlants</li>
+    <li IfModActive="VanillaExpanded.VPlantsESucculents">1.6/VanillaPlantsExpandedSucculents</li>
+    <li IfModActive="VanillaExpanded.VPsycastsE">1.6/VanillaPsycastsExpanded</li>
+    <li IfModActive="vanillaquestsexpanded.dronefactory">1.6/VanillaQuestsExpandedDroneFactory</li>
+    <li IfModActive="vanillaracesexpanded.android">1.6/VanillaRacesExpandedAndroid</li>
+    <li IfModActive="VanillaExpanded.Recycling">1.6/VanillaRecyclingExpanded</li>
+    <li IfModActive="VanillaExpanded.Temperature">1.6/VanillaTemperatureExpanded</li>
+    <li IfModActive="OskarPotocki.VanillaVehiclesExpanded">1.6/VanillaVehiclesExpanded</li>
+    <li IfModActive="OskarPotocki.VanillaVehiclesExpandedTier3">1.6/VanillaVehiclesExpandedTier3</li>
+    <li IfModActive="VanillaExpanded.VWE">1.6/VanillaWeaponsExpanded</li>
+    <li IfModActive="VanillaExpanded.VWEC">1.6/VanillaWeaponsExpandedCoilguns</li>
+    <li IfModActive="VanillaExpanded.VWEFT">1.6/VanillaWeaponsExpandedFrontier</li>
+    <li IfModActive="VanillaExpanded.VWEL">1.6/VanillaWeaponsExpandedLaser</li>
+    <li IfModActive="VanillaExpanded.VWEMS">1.6/VanillaWeaponsExpandedMakeshift</li>
+    <li IfModActive="VanillaExpanded.VWENL">1.6/VanillaWeaponsExpandedNonLethal</li>
+    <li IfModActive="VanillaExpanded.VWEQ">1.6/VanillaWeaponsExpandedQuickdraw</li>
+    <li>/</li>
+  </v1.6>
+</loadFolders>

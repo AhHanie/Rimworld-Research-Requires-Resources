@@ -1,0 +1,22 @@
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VCE_StewCooking"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupWoodLog</id>
+                        <thingDef>WoodLog</thingDef>
+                        <count>30</count>
+                    </li>
+                    <li>
+                        <id>setupRawCorn</id>
+                        <thingDef>RawCorn</thingDef>
+                        <count>40</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+</Patch>

@@ -1,0 +1,22 @@
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VCE_SoyFermentation"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <id>setupWoodLog</id>
+                        <thingDef>WoodLog</thingDef>
+                        <count>20</count>
+                    </li>
+                    <li>
+                        <id>setupVCERawSoybean</id>
+                        <thingDef>VCE_RawSoybean</thingDef>
+                        <count>35</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+</Patch>

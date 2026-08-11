@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <RRR.LoadingLabel>Research Requires Resources Loading</RRR.LoadingLabel>
+    <RRR.SettingsTitle>Research Requires Resources</RRR.SettingsTitle>
+
+    <RRR_MaterialCostsHeading>Material costs</RRR_MaterialCostsHeading>
+    <RRR_FundingHeading>Funding status</RRR_FundingHeading>
+    <RRR_StatusFunding>Unfunded</RRR_StatusFunding>
+    <RRR_StatusPaid>Paid</RRR_StatusPaid>
+    <RRR_ReservedSuffix>{0} reserved</RRR_ReservedSuffix>
+    <RRR_RefundSummary>Refund policy: {0}% of consumed materials are returned on cancellation.</RRR_RefundSummary>
+    <RRR_StatusReady>Ready</RRR_StatusReady>
+    <RRR_StatusCanceled>Canceled</RRR_StatusCanceled>
+    <RRR_StatusPaused>Paused</RRR_StatusPaused>
+    <RRR_StatusAwaitingFunding>Awaiting funding delivery</RRR_StatusAwaitingFunding>
+    <RRR_CancelMaterialProgram>Cancel material funding</RRR_CancelMaterialProgram>
+    <RRR_CancelConfirmation>Cancel the material funding for {0}? Unconsumed materials will be refunded near a research bench, and a portion of consumed materials may be refunded according to policy.</RRR_CancelConfirmation>
+    <RRR_CannotFinishUnfunded>{0} cannot be finished until its material funding is fully paid.</RRR_CannotFinishUnfunded>
+    <RRR_DebugFinishAllBlocked>Some research projects have unfunded material costs and were not force-finished. Fund them normally or cancel their material funding first.</RRR_DebugFinishAllBlocked>
+    <RRR_DeliveringMaterialReport>delivering materials for {0} to {1}</RRR_DeliveringMaterialReport>
+    <RRR_InvalidMissingRequirement>one or more required materials for this project no longer exist</RRR_InvalidMissingRequirement>
+    <RRR_GrandfatherExistingPartialProgressLabel>Grandfather existing partial progress</RRR_GrandfatherExistingPartialProgressLabel>
+    <RRR_GrandfatherExistingPartialProgressDesc>When installed into a save with research already in progress, treat that project's material funding as already paid instead of requiring funding from that point onward.</RRR_GrandfatherExistingPartialProgressDesc>
+    <RRR_ShowResearchOverviewButtonLabel>Show research overview button</RRR_ShowResearchOverviewButtonLabel>
+    <RRR_ShowResearchOverviewButtonDesc>Show the Research overview button on the bottom bar. This only controls the button; the overview data is unaffected either way.</RRR_ShowResearchOverviewButtonDesc>
+
+    <RRR_ResearchOverviewWindowTitle>Research overview</RRR_ResearchOverviewWindowTitle>
+    <RRR_ResearchOverviewNoResults>No research projects match your search.</RRR_ResearchOverviewNoResults>
+    <RRR_ColumnResearch>Research</RRR_ColumnResearch>
+    <RRR_ColumnResearchPoints>Research points</RRR_ColumnResearchPoints>
+    <RRR_ColumnMaterialCost>Material cost</RRR_ColumnMaterialCost>
+    <RRR_ColumnFundingStatus>Funding status</RRR_ColumnFundingStatus>
+
+    <RRR_StatusNotRequired>Not required</RRR_StatusNotRequired>
+    <RRR_StatusNotStarted>Not started</RRR_StatusNotStarted>
+    <RRR_StatusInvalidFallback>Invalid</RRR_StatusInvalidFallback>
+    <RRR_StatusOverviewFallback>Unknown</RRR_StatusOverviewFallback>
+</LanguageData>

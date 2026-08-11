@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+    <defName>RRR_DeliverResearchMaterial</defName>
+    <driverClass>Research_Requires_Resources.JobDriver_DeliverResearchMaterial</driverClass>
+    <reportString>hauling TargetA to TargetB for research.</reportString>
+    <suspendable>false</suspendable>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+</Defs>
