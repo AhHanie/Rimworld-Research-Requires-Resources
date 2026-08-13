@@ -5,12 +5,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>110</count>
                     </li>
                     <li>
-                        <id>setupComponentIndustrial</id>
                         <thingDef>ComponentIndustrial</thingDef>
                         <count>2</count>
                     </li>
@@ -25,17 +23,14 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupPlasteel</id>
                         <thingDef>Plasteel</thingDef>
                         <count>110</count>
                     </li>
                     <li>
-                        <id>setupComponentIndustrial</id>
                         <thingDef>ComponentIndustrial</thingDef>
                         <count>3</count>
                     </li>
                     <li>
-                        <id>setupComponentSpacer</id>
                         <thingDef>ComponentSpacer</thingDef>
                         <count>1</count>
                     </li>
@@ -50,27 +45,22 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupPlasteel</id>
                         <thingDef>Plasteel</thingDef>
                         <count>35</count>
                     </li>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>30</count>
                     </li>
                     <li>
-                        <id>setupUranium</id>
                         <thingDef>Uranium</thingDef>
                         <count>30</count>
                     </li>
                     <li>
-                        <id>setupComponentIndustrial</id>
                         <thingDef>ComponentIndustrial</thingDef>
                         <count>3</count>
                     </li>
                     <li>
-                        <id>setupComponentSpacer</id>
                         <thingDef>ComponentSpacer</thingDef>
                         <count>1</count>
                     </li>
@@ -85,12 +75,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>110</count>
                     </li>
                     <li>
-                        <id>setupComponentIndustrial</id>
                         <thingDef>ComponentIndustrial</thingDef>
                         <count>2</count>
                     </li>
@@ -105,12 +93,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>65</count>
                     </li>
                     <li>
-                        <id>setupComponentIndustrial</id>
                         <thingDef>ComponentIndustrial</thingDef>
                         <count>2</count>
                     </li>
@@ -125,12 +111,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>110</count>
                     </li>
                     <li>
-                        <id>setupComponentIndustrial</id>
                         <thingDef>ComponentIndustrial</thingDef>
                         <count>2</count>
                     </li>
@@ -145,12 +129,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>25</count>
                     </li>
                     <li>
-                        <id>setupComponentIndustrial</id>
                         <thingDef>ComponentIndustrial</thingDef>
                         <count>2</count>
                     </li>
@@ -165,22 +147,18 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>220</count>
                     </li>
                     <li>
-                        <id>setupPlasteel</id>
                         <thingDef>Plasteel</thingDef>
                         <count>80</count>
                     </li>
                     <li>
-                        <id>setupChemfuel</id>
                         <thingDef>Chemfuel</thingDef>
                         <count>40</count>
                     </li>
                     <li>
-                        <id>setupComponentIndustrial</id>
                         <thingDef>ComponentIndustrial</thingDef>
                         <count>2</count>
                     </li>

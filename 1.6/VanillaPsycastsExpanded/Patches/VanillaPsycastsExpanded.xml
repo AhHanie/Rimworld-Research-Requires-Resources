@@ -5,12 +5,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>75</count>
                     </li>
                     <li>
-                        <id>setupMedicineIndustrial</id>
                         <thingDef>MedicineIndustrial</thingDef>
                         <count>5</count>
                     </li>
@@ -25,22 +23,18 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupVPE_Eltex</id>
                         <thingDef>VPE_Eltex</thingDef>
                         <count>20</count>
                     </li>
                     <li>
-                        <id>setupPlasteel</id>
                         <thingDef>Plasteel</thingDef>
                         <count>60</count>
                     </li>
                     <li>
-                        <id>setupComponentIndustrial</id>
                         <thingDef>ComponentIndustrial</thingDef>
                         <count>3</count>
                     </li>
                     <li>
-                        <id>setupComponentSpacer</id>
                         <thingDef>ComponentSpacer</thingDef>
                         <count>1</count>
                     </li>

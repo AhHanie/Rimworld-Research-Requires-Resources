@@ -56,10 +56,6 @@ namespace Research_Requires_Resources
 
         public IEnumerable<string> ConfigErrors()
         {
-            if (id.NullOrEmpty())
-            {
-                yield return "ResearchMaterialRequirement has no id";
-            }
             if (count <= 0)
             {
                 yield return "ResearchMaterialRequirement '" + id + "' has nonpositive count";
@@ -101,6 +97,30 @@ namespace Research_Requires_Resources
                     {
                         yield return "ResearchMaterialRequirement '" + id + "' filter allows non-haulable or non-storable def " + def.defName;
                     }
+                }
+            }
+        }
+    }
+
+    public static class ResearchMaterialRequirementIdInitializer
+    {
+        public static void AssignIds()
+        {
+            foreach (ResearchProjectDef project in DefDatabase<ResearchProjectDef>.AllDefsListForReading)
+            {
+                ResearchMaterialCostsExtension extension = project.GetModExtension<ResearchMaterialCostsExtension>();
+                if (extension?.requirements == null)
+                {
+                    continue;
+                }
+                for (int i = 0; i < extension.requirements.Count; i++)
+                {
+                    ResearchMaterialRequirement requirement = extension.requirements[i];
+                    if (requirement == null)
+                    {
+                        continue;
+                    }
+                    requirement.id = project.defName + "_" + i;
                 }
             }
         }
@@ -154,16 +174,11 @@ namespace Research_Requires_Resources
                 yield break;
             }
 
-            HashSet<string> ids = new HashSet<string>();
             foreach (ResearchMaterialRequirement requirement in requirements)
             {
                 foreach (string error in requirement.ConfigErrors())
                 {
                     yield return error;
-                }
-                if (!requirement.id.NullOrEmpty() && !ids.Add(requirement.id))
-                {
-                    yield return "duplicate requirement id '" + requirement.id + "'";
                 }
             }
             for (int i = 0; i < requirements.Count; i++)

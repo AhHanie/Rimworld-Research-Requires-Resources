@@ -5,12 +5,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupWoodLog</id>
                         <thingDef>WoodLog</thingDef>
                         <count>65</count>
                     </li>
                     <li>
-                        <id>setupCloth</id>
                         <thingDef>Cloth</thingDef>
                         <count>20</count>
                     </li>
@@ -25,22 +23,18 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupCloth</id>
                         <thingDef>Cloth</thingDef>
                         <count>25</count>
                     </li>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>25</count>
                     </li>
                     <li>
-                        <id>setupWoodLog</id>
                         <thingDef>WoodLog</thingDef>
                         <count>25</count>
                     </li>
                     <li>
-                        <id>setupComponentIndustrial</id>
                         <thingDef>ComponentIndustrial</thingDef>
                         <count>2</count>
                     </li>
@@ -55,12 +49,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupGold</id>
                         <thingDef>Gold</thingDef>
                         <count>100</count>
                     </li>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>20</count>
                     </li>
@@ -75,12 +67,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupWoodLog</id>
                         <thingDef>WoodLog</thingDef>
                         <count>65</count>
                     </li>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>35</count>
                     </li>

@@ -5,12 +5,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupWoodLog</id>
                         <thingDef>WoodLog</thingDef>
                         <count>20</count>
                     </li>
                     <li>
-                        <id>setupVCERawSoybean</id>
                         <thingDef>VCE_RawSoybean</thingDef>
                         <count>35</count>
                     </li>

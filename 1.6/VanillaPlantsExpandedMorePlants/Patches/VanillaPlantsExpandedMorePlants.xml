@@ -5,12 +5,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupRawCorn</id>
                         <thingDef>RawCorn</thingDef>
                         <count>60</count>
                     </li>
                     <li>
-                        <id>setupHay</id>
                         <thingDef>Hay</thingDef>
                         <count>30</count>
                     </li>

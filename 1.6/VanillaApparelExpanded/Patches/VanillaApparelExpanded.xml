@@ -5,12 +5,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupCloth</id>
                         <thingDef>Cloth</thingDef>
                         <count>75</count>
                     </li>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>30</count>
                     </li>
@@ -25,12 +23,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupCloth</id>
                         <thingDef>Cloth</thingDef>
                         <count>75</count>
                     </li>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>30</count>
                     </li>
@@ -45,12 +41,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupCloth</id>
                         <thingDef>Cloth</thingDef>
                         <count>75</count>
                     </li>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>30</count>
                     </li>
@@ -65,12 +59,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupCloth</id>
                         <thingDef>Cloth</thingDef>
                         <count>75</count>
                     </li>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>30</count>
                     </li>
@@ -85,12 +77,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupCloth</id>
                         <thingDef>Cloth</thingDef>
                         <count>75</count>
                     </li>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>30</count>
                     </li>

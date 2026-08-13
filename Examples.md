@@ -23,9 +23,9 @@ This formerly lived in `1.6/Defs/ResearchCosts/Examples.xml`.
   <modExtensions>
     <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
       <requirements>
-        <li><id>steel</id><thingDef>Steel</thingDef><count>100</count></li>
-        <li><id>components</id><thingDef>ComponentIndustrial</thingDef><count>4</count></li>
-        <li><id>cloth</id><thingDef>Cloth</thingDef><count>20</count></li>
+        <li><thingDef>Steel</thingDef><count>100</count></li>
+        <li><thingDef>ComponentIndustrial</thingDef><count>4</count></li>
+        <li><thingDef>Cloth</thingDef><count>20</count></li>
       </requirements>
       <consumedRefundPercent>0.5</consumedRefundPercent>
     </li>
@@ -50,7 +50,7 @@ This formerly lived in `1.6/Defs/ResearchCosts/Examples.xml`.
       <consumedRefundPercent>0.75</consumedRefundPercent>
       <scaleConsumedRefundByRemainingProgress>true</scaleConsumedRefundByRemainingProgress>
       <requirements>
-        <li><id>fabric</id><thingDef>Cloth</thingDef><count>60</count></li>
+        <li><thingDef>Cloth</thingDef><count>60</count></li>
       </requirements>
     </li>
   </modExtensions>
@@ -72,8 +72,8 @@ Adds a one-time funding requirement to `Smithing`.
     <value>
       <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
         <requirements>
-          <li><id>steel</id><thingDef>Steel</thingDef><count>75</count></li>
-          <li><id>wood</id><thingDef>WoodLog</thingDef><count>50</count></li>
+          <li><thingDef>Steel</thingDef><count>75</count></li>
+          <li><thingDef>WoodLog</thingDef><count>50</count></li>
         </requirements>
         <consumedRefundPercent>0.5</consumedRefundPercent>
       </li>

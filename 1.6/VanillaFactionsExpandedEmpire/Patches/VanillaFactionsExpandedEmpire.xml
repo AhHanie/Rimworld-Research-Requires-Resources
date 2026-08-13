@@ -5,17 +5,14 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupPlasteel</id>
                         <thingDef>Plasteel</thingDef>
                         <count>80</count>
                     </li>
                     <li>
-                        <id>setupComponentIndustrial</id>
                         <thingDef>ComponentIndustrial</thingDef>
                         <count>3</count>
                     </li>
                     <li>
-                        <id>setupComponentSpacer</id>
                         <thingDef>ComponentSpacer</thingDef>
                         <count>1</count>
                     </li>
@@ -30,17 +27,14 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupGold</id>
                         <thingDef>Gold</thingDef>
                         <count>20</count>
                     </li>
                     <li>
-                        <id>setupWoodLog</id>
                         <thingDef>WoodLog</thingDef>
                         <count>20</count>
                     </li>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>20</count>
                     </li>
@@ -55,22 +49,18 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupWoodLog</id>
                         <thingDef>WoodLog</thingDef>
                         <count>75</count>
                     </li>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>25</count>
                     </li>
                     <li>
-                        <id>setupGold</id>
                         <thingDef>Gold</thingDef>
                         <count>25</count>
                     </li>
                     <li>
-                        <id>setupComponentIndustrial</id>
                         <thingDef>ComponentIndustrial</thingDef>
                         <count>2</count>
                     </li>
@@ -85,12 +75,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupGold</id>
                         <thingDef>Gold</thingDef>
                         <count>30</count>
                     </li>
                     <li>
-                        <id>setupComponentIndustrial</id>
                         <thingDef>ComponentIndustrial</thingDef>
                         <count>2</count>
                     </li>

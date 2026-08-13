@@ -5,17 +5,14 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupWoodLog</id>
                         <thingDef>WoodLog</thingDef>
                         <count>30</count>
                     </li>
                     <li>
-                        <id>setupCloth</id>
                         <thingDef>Cloth</thingDef>
                         <count>30</count>
                     </li>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>20</count>
                     </li>
@@ -30,12 +27,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupWoodLog</id>
                         <thingDef>WoodLog</thingDef>
                         <count>30</count>
                     </li>
                     <li>
-                        <id>setupHay</id>
                         <thingDef>Hay</thingDef>
                         <count>30</count>
                     </li>
@@ -50,17 +45,14 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>35</count>
                     </li>
                     <li>
-                        <id>setupWoodLog</id>
                         <thingDef>WoodLog</thingDef>
                         <count>20</count>
                     </li>
                     <li>
-                        <id>setupVFEM2_HardLeather</id>
                         <thingDef>VFEM2_HardLeather</thingDef>
                         <count>20</count>
                     </li>
@@ -75,17 +67,14 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupCloth</id>
                         <thingDef>Cloth</thingDef>
                         <count>80</count>
                     </li>
                     <li>
-                        <id>setupVFEM2_HardLeather</id>
                         <thingDef>VFEM2_HardLeather</thingDef>
                         <count>25</count>
                     </li>
                     <li>
-                        <id>setupWoodLog</id>
                         <thingDef>WoodLog</thingDef>
                         <count>20</count>
                     </li>
@@ -100,17 +89,14 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupWoodLog</id>
                         <thingDef>WoodLog</thingDef>
                         <count>20</count>
                     </li>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>20</count>
                     </li>
                     <li>
-                        <id>setupChemfuel</id>
                         <thingDef>Chemfuel</thingDef>
                         <count>20</count>
                     </li>
@@ -125,12 +111,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>85</count>
                     </li>
                     <li>
-                        <id>setupWoodLog</id>
                         <thingDef>WoodLog</thingDef>
                         <count>1</count>
                     </li>
@@ -145,12 +129,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupWoodLog</id>
                         <thingDef>WoodLog</thingDef>
                         <count>20</count>
                     </li>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>20</count>
                     </li>

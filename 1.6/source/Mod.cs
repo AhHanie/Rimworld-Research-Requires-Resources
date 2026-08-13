@@ -18,6 +18,7 @@ namespace Research_Requires_Resources
 
         private void Init()
         {
+            ResearchMaterialRequirementIdInitializer.AssignIds();
             GetSettings<ModSettings>();
             new Harmony("sk.researchresources").PatchAll();
         }

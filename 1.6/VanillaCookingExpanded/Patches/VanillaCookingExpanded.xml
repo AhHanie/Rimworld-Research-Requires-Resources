@@ -5,12 +5,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupRawCorn</id>
                         <thingDef>RawCorn</thingDef>
                         <count>60</count>
                     </li>
                     <li>
-                        <id>setupVCERawSugar</id>
                         <thingDef>VCE_RawSugar</thingDef>
                         <count>30</count>
                     </li>
@@ -25,12 +23,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupWoodLog</id>
                         <thingDef>WoodLog</thingDef>
                         <count>25</count>
                     </li>
                     <li>
-                        <id>setupHay</id>
                         <thingDef>Hay</thingDef>
                         <count>35</count>
                     </li>
@@ -45,12 +41,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupWoodLog</id>
                         <thingDef>WoodLog</thingDef>
                         <count>20</count>
                     </li>
                     <li>
-                        <id>setupVCERawSpices</id>
                         <thingDef>VCE_RawSpices</thingDef>
                         <count>30</count>
                     </li>
@@ -65,12 +59,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupChemfuel</id>
                         <thingDef>Chemfuel</thingDef>
                         <count>25</count>
                     </li>
                     <li>
-                        <id>setupRawCorn</id>
                         <thingDef>RawCorn</thingDef>
                         <count>70</count>
                     </li>
@@ -85,7 +77,6 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupWoodLog</id>
                         <thingDef>WoodLog</thingDef>
                         <count>45</count>
                     </li>
@@ -100,12 +91,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupRawCorn</id>
                         <thingDef>RawCorn</thingDef>
                         <count>50</count>
                     </li>
                     <li>
-                        <id>setupVCERawSpices</id>
                         <thingDef>VCE_RawSpices</thingDef>
                         <count>20</count>
                     </li>

@@ -5,12 +5,10 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupVBERawCoffee</id>
                         <thingDef>VBE_RawCoffee</thingDef>
                         <count>35</count>
                     </li>
                     <li>
-                        <id>setupVBERawTea</id>
                         <thingDef>VBE_RawTea</thingDef>
                         <count>35</count>
                     </li>

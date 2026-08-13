@@ -5,7 +5,6 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupInsectJelly</id>
                         <thingDef>InsectJelly</thingDef>
                         <count>95</count>
                     </li>
@@ -20,17 +19,14 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupInsectJelly</id>
                         <thingDef>InsectJelly</thingDef>
                         <count>180</count>
                     </li>
                     <li>
-                        <id>setupVFEI2_RoyalInsectJelly</id>
                         <thingDef>VFEI2_RoyalInsectJelly</thingDef>
                         <count>30</count>
                     </li>
                     <li>
-                        <id>setupComponentIndustrial</id>
                         <thingDef>ComponentIndustrial</thingDef>
                         <count>2</count>
                     </li>
@@ -45,17 +41,14 @@
             <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
                 <requirements>
                     <li>
-                        <id>setupInsectJelly</id>
                         <thingDef>InsectJelly</thingDef>
                         <count>100</count>
                     </li>
                     <li>
-                        <id>setupSteel</id>
                         <thingDef>Steel</thingDef>
                         <count>75</count>
                     </li>
                     <li>
-                        <id>setupComponentIndustrial</id>
                         <thingDef>ComponentIndustrial</thingDef>
                         <count>5</count>
                     </li>
