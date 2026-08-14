@@ -146,6 +146,14 @@ namespace Research_Requires_Resources
         {
             base.ResolveReferences(parentDef);
             parent = parentDef as ResearchProjectDef;
+            if (requirements == null)
+            {
+                return;
+            }
+            foreach (ResearchMaterialRequirement requirement in requirements)
+            {
+                requirement?.filter?.ResolveReferences();
+            }
         }
 
         public override IEnumerable<string> ConfigErrors()
