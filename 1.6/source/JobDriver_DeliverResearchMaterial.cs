@@ -45,9 +45,33 @@ namespace Research_Requires_Resources
             return null;
         }
 
+        private void SetAllocationId(int id)
+        {
+            allocationId = id;
+            if (job is Job_DeliverResearchMaterial customJob)
+            {
+                customJob.materialAllocationId = id;
+            }
+        }
+
         public override bool TryMakePreToilReservations(bool errorOnFailed)
         {
             CaptureJobData();
+
+            ResearchMaterialAllocation allocation = FindAllocation();
+            if (allocation == null)
+            {
+                allocation = ResearchMaterialManager.TryAllocateDelivery(pawn, materialProject, materialRequirementId, job.GetTarget(TargetIndex.A).Thing, job.count);
+                if (allocation == null)
+                {
+                    SetAllocationId(0);
+                    return false;
+                }
+                SetAllocationId(allocation.id);
+            }
+
+            job.count = allocation.count;
+
             if (!pawn.Reserve(job.GetTarget(TargetIndex.A), job, 1, job.count, null, errorOnFailed))
             {
                 ReleaseAllocationToken();
@@ -63,6 +87,7 @@ namespace Research_Requires_Resources
             {
                 ResearchMaterialManager.ReleaseAllocation(allocation);
             }
+            SetAllocationId(0);
         }
 
         public override string GetReport()

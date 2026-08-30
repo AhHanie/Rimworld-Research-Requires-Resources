@@ -73,28 +73,17 @@ namespace Research_Requires_Resources
                 {
                     continue;
                 }
-                ResearchMaterialAllocation allocation = ResearchMaterialManager.TryAllocateDelivery(pawn, option.project, option.requirement.id, t, desired);
-                if (allocation == null)
-                {
-                    continue;
-                }
-                if (!pawn.CanReserve(t, 1, allocation.count, null, forced))
-                {
-                    ResearchMaterialManager.ReleaseAllocation(allocation);
-                    continue;
-                }
                 Thing bench = ResearchBenchUtility.FindNearestReachableBench(pawn);
                 if (bench == null)
                 {
-                    ResearchMaterialManager.ReleaseAllocation(allocation);
                     continue;
                 }
                 return new Job_DeliverResearchMaterial(ResearchMaterialJobDefOf.RRR_DeliverResearchMaterial, t, bench)
                 {
-                    count = allocation.count,
+                    count = desired,
                     materialProject = option.project,
                     materialRequirementId = option.requirement.id,
-                    materialAllocationId = allocation.id
+                    materialAllocationId = 0
                 };
             }
             return null;
