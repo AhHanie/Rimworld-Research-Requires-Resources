@@ -1,0 +1,20 @@
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VBE_EspressoMachine"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <thingDef>VBE_RawCoffee</thingDef>
+                        <count>35</count>
+                    </li>
+                    <li>
+                        <thingDef>VBE_RawTea</thingDef>
+                        <count>35</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+</Patch>

@@ -1,0 +1,24 @@
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VWE_MassDrivers"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <thingDef>Plasteel</thingDef>
+                        <count>110</count>
+                    </li>
+                    <li>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>3</count>
+                    </li>
+                    <li>
+                        <thingDef>ComponentSpacer</thingDef>
+                        <count>1</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+</Patch>

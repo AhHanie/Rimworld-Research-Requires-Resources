@@ -1,0 +1,64 @@
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VFE_Res_AdvancedHydroponics"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <thingDef>Steel</thingDef>
+                        <count>30</count>
+                    </li>
+                    <li>
+                        <thingDef>Plasteel</thingDef>
+                        <count>30</count>
+                    </li>
+                    <li>
+                        <thingDef>ComponentSpacer</thingDef>
+                        <count>1</count>
+                    </li>
+                    <li>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>3</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VFE_Res_FarmingTechniques"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <thingDef>Hay</thingDef>
+                        <count>20</count>
+                    </li>
+                    <li>
+                        <thingDef>Cloth</thingDef>
+                        <count>20</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VFE_Res_Sprinkler"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <thingDef>Steel</thingDef>
+                        <count>25</count>
+                    </li>
+                    <li>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <count>2</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+</Patch>

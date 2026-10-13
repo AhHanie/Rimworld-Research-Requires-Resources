@@ -1,0 +1,42 @@
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VBE_LiquorBrewing"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <thingDef>WoodLog</thingDef>
+                        <count>70</count>
+                    </li>
+                    <li>
+                        <thingDef>RawCorn</thingDef>
+                        <count>45</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="VBE_MixologyResearch"]</xpath>
+        <value>
+            <li Class="Research_Requires_Resources.ResearchMaterialCostsExtension">
+                <requirements>
+                    <li>
+                        <thingDef>Gold</thingDef>
+                        <count>25</count>
+                    </li>
+                    <li>
+                        <thingDef>Cloth</thingDef>
+                        <count>20</count>
+                    </li>
+                    <li>
+                        <thingDef>RawHops</thingDef>
+                        <count>30</count>
+                    </li>
+                </requirements>
+                <consumedRefundPercent>0.5</consumedRefundPercent>
+            </li>
+        </value>
+    </Operation>
+</Patch>

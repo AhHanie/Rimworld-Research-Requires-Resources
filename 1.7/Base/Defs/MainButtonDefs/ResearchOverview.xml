@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MainButtonDef>
+    <defName>RRR_ResearchOverview</defName>
+    <label>research overview</label>
+    <description>Open a list of every research project, its progress, its material cost, and its funding status.</description>
+    <workerClass>Research_Requires_Resources.MainButtonWorker_ResearchOverview</workerClass>
+    <order>61</order>
+    <iconPath>RRR/UI/Icons/book-bookmark</iconPath>
+    <minimized>True</minimized>
+  </MainButtonDef>
+
+</Defs>

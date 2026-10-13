@@ -2,7 +2,7 @@
 
 These are reference examples only. They are not loaded by the mod: the def and patch files they used to live in have been removed from `1.6/Defs/ResearchCosts` and `1.6/Patches` so they never appear in a real game. Copy the snippets you need into your own def or patch files.
 
-`ResearchMaterialCostsExtension` describes a one-time material payment. Colonists must deliver every required material to a research bench before research on that project can begin; once fully paid, the project researches exactly like vanilla with no further material requests.
+`ResearchMaterialCostsExtension` describes a one-time material payment. Colonists must deliver every required material to a research bench before research on that project can begin; delivery happens automatically, or you can select an eligible colonist and right-click a needed, unreserved material to prioritize its delivery. Once fully paid, the project researches exactly like vanilla with no further material requests.
 
 ## Standalone example research project
 
